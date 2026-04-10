@@ -1,15 +1,17 @@
 # Its-C-is-3-dimensions
-Its C is 3-dimensions ( C3 ) : This is a new SSM model.
+Its C is 3-dimensions ( C3 ) : This is a new SSM architecture.
 
-The feature of the model (C3) is just that its C is 3-dimensions and there's nothing else worth mentioning.
-However, This future have several advantages and I am goint to explain it.
+The only structural change is that C becomes a 3-dimensional tensor.
+Other components such as A and B remain ordinary 2-dimension matrices.
+Any additional structures are not essential; the core of C3 lies solely in the 3D C-tensor.
+
 
 # Conpornent
 ## SSM
 The A and B matrices of this SSM are HiPPO matrices.
 
-## mult-head Attention
-
+## Attention
+The output of SSM and a recent small amount of raw data are both given to Attention model.
 
 ## MLP
 Role of this MLP is similar to that of FFN in Transformer.
