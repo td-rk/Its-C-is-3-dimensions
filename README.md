@@ -28,3 +28,10 @@ Its responsibilities include:
 - Applying nonlinear transformations  
 - Expanding representational capacity  
 - Mapping the integrated features to the final output space  
+
+## Summary
+C3 SSM introduces:
+- A 3D C‑tensor enabling multi‑view readout  
+- Standard HiPPO‑based A and B matrices  
+- An Attention module that fuses long‑term SSM memory with short‑term raw data  
+- An MLP that refines and projects the combined representation  
