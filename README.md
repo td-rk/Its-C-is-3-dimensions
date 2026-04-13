@@ -11,13 +11,13 @@ The state transition matrix A and input matrix B remain conventional 2‑dimensi
 ## Components
 ### 1. Input structure
 
-#### B-matrix
-- The matrices A is constructed using HiPPO.
+#### B (input projection)
+- This is constructed using HiPPO.
 
 ### 2. State transition structure 
 
-#### A-matrix
-- The matrices A is constructed using HiPPO.
+#### A (state transition)
+- This is constructed using HiPPO.
 
 ### 3. Output structure
 
@@ -25,8 +25,8 @@ A single linear projection is simply not enough.
 The structure of a HiPPO state space forces the readout to be more complex.
 
 
-#### C-tensor
-- The C‑tensor enables the model to generate multiple outputs from different viewpoints.
+#### Mult-C (output projection)
+- This enables the model to generate multiple outputs from different viewpoints.
 - Each slice of the C‑tensor acts as an independent readout head, providing diverse representations of the shared state.
 - This multi‑view mechanism enhances the expressive power of the SSM without altering its core dynamics.
 
