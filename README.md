@@ -8,6 +8,12 @@ These three mechanisms together constitute the entire readout structure, rather 
  
 The state transition matrix A and input matrix B remain conventional 2‑dimensional matrices.
 
+## Background
+
+## Problem Statement
+
+## Proposed Approach
+
 ## Components
 ### 1. Input structure
 
